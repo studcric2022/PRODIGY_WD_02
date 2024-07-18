@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #b16161;
+    font-size: 120%;
+    
+}
+
+.container{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    margin-top: 2px;
+    background-color: #b16161;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: -5%;
+    border-radius: 6%
+}
+.stopwatch{
+    width: 110vmin;
+    height: 30vmin;
+    margin: 5%;
+    border: 2px solid white;
+    border-radius: 2vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8vmin;
+    background-color: black
+}
+.cards{
+    width: 16vmin;
+    height: 16vmin;
+    border: 2px solid #1027d5;
+    font-size: 12vmin;
+    border-radius: 2vmin;
+    align-items: center;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    background-color: #1d1db5;
+    color: red;
+    
+}
+.start{
+    padding:1rem ;
+    font-size: 1.25rem;
+    background-color: rgb(12, 4, 4);
+    color: wheat;
+    border-radius: 1rem ;
+    margin: 2vmin;
+    border: 2px solid white;
+}
+.reset{
+    padding:1rem ;
+    font-size: 1.25rem;
+    background-color: rgb(12, 4, 4);
+    color: wheat;
+    border-radius: 1rem ;
+    margin: 2vmin;
+    border: 2px solid white;
+}
+.reset:hover{
+    color: red;
+}
+.start:hover{
+    color: red;
+    }
+#heading{
+    margin-top: 10px;
+}    
